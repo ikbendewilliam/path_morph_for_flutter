@@ -1,12 +1,16 @@
 # Path Morph
 
+[![pub package](https://img.shields.io/pub/v/flutter_path_morph.svg)](https://pub.dartlang.org/packages/flutter_path_morph)
+
 This is a package that lets you smoothly morph one Flutter `Path` object into another. You can think of this as a path tween animation. The idea is to take two paths, a source path and a destination path, and smoothly move the points of the source path until it looks exactly like the destination path.
 
 ![](https://raw.githubusercontent.com/hathibelagal-dev/path_morph_for_flutter/master/example.gif)
 
+This package is based on [path_morph](https://pub.dev/packages/path_morph)
+
 ## Tip
 
-Use [path_drawing](https://pub.dev/packages/path_drawing) to transform svg's into paths!
+Use [path_drawing](https://pub.dev/packages/path_drawing) to use svg paths!
 
 (see bottom of example)
 

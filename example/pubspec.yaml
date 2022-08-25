@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  path_morph:
+  flutter_path_morph:
     path: ..
   path_drawing: ^1.0.1
 

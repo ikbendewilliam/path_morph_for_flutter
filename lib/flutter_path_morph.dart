@@ -1,4 +1,4 @@
-library path_morph;
+library flutter_path_morph;
 
 export 'src/morph_default_painter.dart';
 export 'src/morph_widget.dart';

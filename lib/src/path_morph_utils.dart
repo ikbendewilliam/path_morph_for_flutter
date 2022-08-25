@@ -1,7 +1,7 @@
 import 'package:flutter/animation.dart';
 import 'package:flutter/rendering.dart';
-import 'package:path_morph/src/different_contours_morph_error.dart';
-import 'package:path_morph/src/sampled_path_data.dart';
+import 'package:flutter_path_morph/src/different_contours_morph_error.dart';
+import 'package:flutter_path_morph/src/sampled_path_data.dart';
 
 typedef UpdatePointCallback = void Function(int i, Offset z);
 

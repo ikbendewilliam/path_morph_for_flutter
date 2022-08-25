@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:path_morph/src/morph_default_painter.dart';
-import 'package:path_morph/src/path_morph_utils.dart';
+import 'package:flutter_path_morph/src/morph_default_painter.dart';
+import 'package:flutter_path_morph/src/path_morph_utils.dart';
 
 typedef PainterProvider = CustomPainter Function(Path);
 

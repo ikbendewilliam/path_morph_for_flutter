@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:path_drawing/path_drawing.dart';
-import 'package:path_morph/path_morph.dart';
+import 'package:flutter_path_morph/flutter_path_morph.dart';
 
 void main() => runApp(const MyApp());
 
