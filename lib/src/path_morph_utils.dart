@@ -48,9 +48,10 @@ class PathMorphUtils {
       var isReversed = false;
       for (var reversed = 0; reversed <= 1; reversed++) {
         if (reversed == 1) {
+          final reversedPoints1 = data.points1.reversed.toList();
           data.points1
             ..clear()
-            ..addAll(data.points1.reversed);
+            ..addAll(reversedPoints1);
         }
         for (int shiftIndex = 0;
             shiftIndex < data.points1.length;
@@ -67,9 +68,10 @@ class PathMorphUtils {
             optimalIndex = shiftIndex;
             isReversed = reversed == 1 ? true : false;
           }
+          final shiftedByOne = _shiftList(data.points1, 1);
           data.points1
             ..clear()
-            ..addAll(_shiftList(data.points1, 1));
+            ..addAll(shiftedByOne);
         }
       }
       final shifted = _shiftList(data.points1, optimalIndex);
