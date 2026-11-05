@@ -4,7 +4,7 @@ version: 2.0.1
 homepage: https://github.com/ikbendewilliam/path_morph_for_flutter
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ">=2.17.6 <4.0.0"
 
 dependencies:
   flutter:
